@@ -19,5 +19,21 @@ public class Main {
         System.out.println(cat);
         paper = paper - 7639;
         System.out.println(paper);
+        System.out.println("Вторая часть домашки:");
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+        System.out.println("Дальше №5");
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
     }
 }
