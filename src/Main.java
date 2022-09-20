@@ -35,5 +35,23 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+
+        System.out.println("Третья часть домашки:");
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var totalWeight = firstBoxer + secondBoxer;
+        System.out.println(totalWeight);
+        var weightDifference = secondBoxer - firstBoxer;
+        System.out.println(weightDifference);
+        System.out.println("Задача №7");
+        var weightViaDividing = (secondBoxer / firstBoxer) % totalWeight;
+        System.out.println(weightViaDividing);
+
+        System.out.println("Задача №8");
+        var totalHours = 640;
+        var oneEmployee = 8;
+        var totalEmployees = totalHours / oneEmployee;
+        System.out.println("Всего работников в компании - " + totalEmployees + " человек!");
+
     }
 }
